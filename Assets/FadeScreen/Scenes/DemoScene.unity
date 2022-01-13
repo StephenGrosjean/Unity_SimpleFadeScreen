@@ -155,7 +155,7 @@ RectTransform:
   m_Children:
   - {fileID: 1514747883}
   m_Father: {fileID: 1146097858}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -483,9 +483,9 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 1799612933}
   - {fileID: 396867340}
   - {fileID: 1560226546}
+  - {fileID: 1799612933}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -809,7 +809,7 @@ RectTransform:
   m_Children:
   - {fileID: 856692555}
   m_Father: {fileID: 1146097858}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1026,6 +1026,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1146097858}
     m_Modifications:
+    - target: {fileID: 5536815840380847953, guid: b923bd53761dec14f9db9c0a42728bd7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5536815840380847964, guid: b923bd53761dec14f9db9c0a42728bd7, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1036,7 +1040,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5536815840380847964, guid: b923bd53761dec14f9db9c0a42728bd7, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5536815840380847964, guid: b923bd53761dec14f9db9c0a42728bd7, type: 3}
       propertyPath: m_AnchorMax.x
